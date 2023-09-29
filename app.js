@@ -4,8 +4,10 @@ const app = express()
 const port = 8081
 
 // Set Views
-app.set('views', './views')
 app.set('view engine', 'ejs')
+
+// Statics
+// Routes
 
 app.get('', (req, res) => {
     res.render('index', {text: 'This is S'})

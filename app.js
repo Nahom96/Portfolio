@@ -1,16 +1,21 @@
 // Imports
 const express = require('express')
 const app = express()
+const path = require('path')
 const port = 8081
 
 // Set Views
+app.set('views', './views')
 app.set('view engine', 'ejs')
 
 // Statics
 // Routes
+app.use(express.static(__dirname + '/public'));
+
+
 
 app.get('', (req, res) => {
-    res.render('index', {text: 'This is S'})
+    res.render('index')
 })
 
 app.get('/about', (req, res) => {

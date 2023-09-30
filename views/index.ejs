@@ -4,58 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/public /css/main.css">
-    <style>
-        .navbar {
-            background-color: #333;
-            text-align: center; /* Center the content horizontally */
-            padding: 10px 0;
-        }
-
-        .nav-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: inline-block; /* Display the list items in a single line */
-        }
-
-        .nav-item {
-            display: inline;
-            margin-right: 20px;
-        }
-
-        .nav-item:last-child {
-            margin-right: 0;
-        }
-
-        .nav-item a {
-            text-decoration: none;
-            color: #fff;
-            font-weight: bold;
-        }
-        .head1{
-            background-color: rgb(89, 147, 89);
-            margin-top: -15px;
-        }
-        h2{
-            text-align: center;
-            font-size:50px;
-            padding-top: 30px;
-            margin-bottom: 10px;
-        }
-        body {
-            background-image: url(Ortho.jpeg);
-            background-size: cover; 
-            background-repeat: no-repeat; 
-            
-
-        }
-    </style>
+    <link rel="stylesheet" href="/css/main.css">
+    
 </head>
 <body>
+    <div class="logo">
+        <img class="logo1" src="/images/bg1-removebg-preview.png">
+    </div>
     <div class="head1">
         <h2>Home</h2>
-        <img src="../public /images/bg1.jpg" alt="Logo" class="logo">
             <nav class="navbar">
                 <ul class="nav-list">
                 <li class="nav-item"><a href="/">Home</a></li>
@@ -66,6 +23,51 @@
             </ul>
       </nav>
     </div>
+    <div class="body2">
+        <h3 class="mission">To Empower Individuals To Fearlessly Explore The Uncharted Territories Of Their Potential,<br> 
+            To Boldly Embrace The Beauty Of Uncertainty, And To Pioneer A Path Towards A Future Where<br>
+            Innovation Knows No Bounds.<br>
+        <br>
+            Content Section</h3>
+        <h4 class="button-list">
+            <button class="custom-button" id="button1">Home</button>
+            <span class="button-spacing"></span>  
+            <button class="custom-button" id="button2">About</button>
+            <span class="button-spacing"></span>  
+            <button class="custom-button" id="button3">Projects</button>
+            <span class="button-spacing"></span>  
+            <button class="custom-button" id="button4">Services</button>
+            <span class="button-spacing"></span> 
+            <button class="custom-button" id="button5">Contact</button>
+        </h4>
+    </div>
+    <script defer>
+        const button1 = document.getElementById("button1");
+        button1.addEventListener("click", function () {
+            window.location.href = "/";  
+        });
+
+        const button2 = document.getElementById("button2");
+        button2.addEventListener("click", function () {
+            window.location.href = "/about";  
+        });
+
+        const button3 = document.getElementById("button3");
+        button3.addEventListener("click", function () {
+            window.location.href = "/project";  
+        });
+
+        const button4 = document.getElementById("button4");
+        button4.addEventListener("click", function () {
+            window.location.href = "/services";  
+        });
+
+        const button5 = document.getElementById("button5");
+        button5.addEventListener("click", function () {
+            window.location.href = "/contact";  
+        });
+    
+    </script>
     
 </body>
 </html>

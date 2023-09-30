@@ -22,7 +22,6 @@ body {
     font-size: 36px;
     margin-bottom: 10px;
 }
-
 .logo {
     width: 100px;
     height: 100px;
@@ -30,39 +29,31 @@ body {
     margin: 10px auto;
     display: block;
 }
-
 .navbar {
     background-image: url(/images/header.webp);
     text-align: center; 
 }
-
 .nav-list {
     list-style-type: none;
     padding: 10px 0;
 }
-
 .nav-item {
     display: inline-block;
     margin-right: 50px;
     font-weight: bolder;
 }
-
 .nav-item:last-child {
     margin-right: 0;
 }
-
 .nav-item a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     transition: font-size 0.2s;
 }
-
-
 .nav-item a:hover {
     font-size: 20px;
 }
-
 .content {
     padding: 20px;
 }       
@@ -90,12 +81,9 @@ body {
 .button-list {
     text-align: center;  
 }
-
- 
 .button-spacing {
     margin-right: 55px;  
 }
-
 #button1{
     background-color: rgb(104, 3, 3); 
     color: #fff;
@@ -106,8 +94,6 @@ body {
     cursor: pointer;
     transition: transform 0.4s; 
 }
-
- 
 #button1:hover {
     transform: scale(1.1); 
 }
@@ -121,8 +107,6 @@ body {
     cursor: pointer;
     transition: transform 0.4s; 
 }
-
- 
 #button2:hover {
     transform: scale(1.1); 
 }
@@ -136,8 +120,6 @@ body {
     cursor: pointer;
     transition: transform 0.4s; 
 }
-
- 
 #button3:hover {
     transform: scale(1.1); 
 }
@@ -151,8 +133,6 @@ body {
     cursor: pointer;
     transition: transform 0.4s; 
 }
-
- 
 #button4:hover {
     transform: scale(1.1); 
 }
@@ -166,8 +146,6 @@ body {
     cursor: pointer;
     transition: transform 0.4s; 
 }
-
- 
 #button5:hover {
     transform: scale(1.1); 
 }

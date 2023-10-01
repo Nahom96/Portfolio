@@ -25,22 +25,62 @@
     </div>
 
     <div class="section1">
-        <h3>This is Section 1</h3>
-    <p>Here is some content for Section 1.</p>
+        <img class="calPic" src="/images/cal-removebg-preview.png">
+        <br>
+        <br>
+        <h3 class="brief">Brief Description</h3>
+    <p class="brief">
+        This project involved creating a user-friendly calculator app capable of performing 
+        basic arithmetic operations like addition, subtraction, multiplication, and division. 
+        It also included features like memory storage. The goal was to build an efficient and 
+        intuitive calculator using programming skills and UI design.
+    </p>
+    <button class="cal-button" id="button1">See More</button>
+    </div>
+
+    <div class="section2">
+        <img class="carPic" src="/images/mcqueen-removebg-preview.png">
+        <br>
+        <br>
+        <h3 class="brief">Brief Description</h3>
+    <p class="brief">
+        This coding project involved creating an engaging car racing game using C#. 
+        The game offered players an immersive experience as they navigated it through challenging tracks. 
+        The project showcased my programming expertise in C# and game development.
+    </p>
+    <button class="car-button" id="button2">See More</button>
+    </div>
+
+    <div class="section3">
+        <img class="tickPic" src="/images/tick-removebg-preview.png">
+        <br>
+        <br>
+        <h3 class="brief">Brief Description</h3>
+    <p class="brief">
+        This project focused on developing a C# Tic-Tac-Toe game. The game provided players with 
+        an enjoyable experience as they engaged in strategic moves to win the game.It showcased my expertise 
+        in C# programming and game development, offering players an engaging and strategic gaming experience.
+    </p>
+    <button class="tick-button" id="button2">See More</button>
     </div>
 
 
-
-
-
-
-
-
-
-
-
     <script defer>
+        const button1 = document.getElementById("button1");
+        button1.addEventListener("click", function () {
+            window.open("https://github.com/Nahom96/Nahom-s-Cal-App", "_blank");
+ 
+        });
 
+        const button2 = document.getElementById("button2");
+        button2.addEventListener("click", function () {
+            window.open("https://github.com/Nahom96/Car-Game", "_blank");
+        });
+
+        const button3 = document.getElementById("button3");
+        button3.addEventListener("click", function () {
+            window.open("https://github.com/Nahom96/TicTacToe-Game", "_blank");
+        });
     </script>
     
 </body>

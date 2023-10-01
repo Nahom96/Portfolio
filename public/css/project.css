@@ -73,7 +73,7 @@ body {
     right: 300px;
 }
 .section1 {
-    background-color: lightblue;
+    background-image: url(/images/aa1.jpeg);
     padding: 20px;
     text-align: center;
     border: 1px solid #ccc;
@@ -83,8 +83,75 @@ body {
     margin-top: 60px;
     margin-left: 100px;
 }
-
-
-
-
-
+.section2 {
+    background-image: url(/images/aa1.jpeg);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: -542px;
+    margin-left: 542px;
+}
+.section3 {
+    background-image: url(/images/aa1.jpeg);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: -542px;
+    margin-left: 982px;
+}
+.calPic{
+    height: 200px;
+    width: 200px;
+}
+.cal-button{
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(148, 47, 47);
+    color: #fff;
+}
+.cal-button:hover {
+    background-color: rgb(104, 3, 3); 
+}
+.carPic{
+    height: 140px;
+    width: 350px;
+    margin-left: -30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.car-button{
+    margin-top: 43px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(148, 47, 47);
+    color: #fff;
+}
+.car-button:hover {
+    background-color: rgb(104, 3, 3); 
+}
+.tickPic{
+    height: 155px;
+    width: 280px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+.tick-button{
+    margin-top: 25px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(148, 47, 47);
+    color: #fff;
+}
+.tick-button:hover {
+    background-color: rgb(104, 3, 3); 
+}

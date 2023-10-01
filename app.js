@@ -9,11 +9,11 @@ app.set('views', './views')
 app.set('view engine', 'ejs')
 
 // Statics
-// Routes
+
 app.use(express.static(__dirname + '/public'));
 
 
-
+// Routes for views
 app.get('', (req, res) => {
     res.render('index')
 })

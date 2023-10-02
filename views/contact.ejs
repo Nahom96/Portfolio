@@ -27,19 +27,29 @@
     <div class="section1">
         <form id="contact-form">
             <label for="first-name">First Name:</label>
-            <input type="text" id="first-name" name="first-name" required><br>
-    
-            <label for="last-name">Last Name:</label>
-            <input type="text" id="last-name" name="last-name" required><br>
-    
-            <label for="contact-number">Contact Number:</label>
-            <input type="tel" id="contact-number" name="contact-number" required><br>
-    
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required><br>
-    
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <input type="text" id="first-name" name="first-name" required><br>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required><br>
+
+        <label for="contact-number">Contact Number:</label>
+        <input type="number" id="contact-number" name="contact-number" pattern="[0-9]*" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required><br>
+
+        <label for="priority">Priority:</label>
+        <select id="priority" name="priority" required>
+            <option value="high">High</option>
+            <option value="medium">Medium</option>
+            <option value="low">Low</option>
+        </select>
     
             <input type="submit" value="Submit">
         </form>
@@ -47,11 +57,23 @@
     </div>
 
     <div class="section2">
-        
+        <img class="gitPic" src="/images/Java.png">
     </div>
 
 
-    <script defer>  </script>
+    <script defer> 
+        document.getElementById("contact-form").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevent the default form submission behavior
+
+            // Capture form data
+            const firstName = document.getElementById("first-name").value;
+            const lastName = document.getElementById("last-name").value;
+            const contactNumber = document.getElementById("contact-number").value;
+            const email = document.getElementById("email").value;
+            const message = document.getElementById("message").value;
+            window.location.href = "/"; // Replace "/" with the actual URL of your Home Page
+        });
+</script>
     
 </body>
 </html>

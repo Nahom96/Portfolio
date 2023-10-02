@@ -94,59 +94,39 @@ body {
     margin-top: -542px;
     margin-left: 790px;
 } 
-.contact-container {
+#contact-form {
     max-width: 400px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #f4f4f4;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Styling for form elements */
-  .contact-container label,
-  .contact-container input,
-  .contact-container textarea {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  .contact-container label {
+    margin-left: 15px;
+}
+
+/* Styling for form elements */
+label {
     font-weight: bold;
-  }
-  
-  .contact-container input[type="text"],
-  .contact-container input[type="tel"],
-  .contact-container input[type="email"],
-  .contact-container textarea {
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+textarea {
     width: 100%;
     padding: 10px;
+    margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  /* Styling for the submit button */
-  .contact-container input[type="submit"] {
+}
+
+input[type="submit"] {
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-  }
-  
-  /* Hover effect for the submit button */
-  .contact-container input[type="submit"]:hover {
+}
+
+/* Hover effect for the submit button */
+input[type="submit"]:hover {
     background-color: #0056b3;
-  }
-  
-  /* Center the form within the container */
-  .contact-container form {
-    text-align: center;
-  }
-  
-  /* Optional: Style for error messages (you can add JavaScript validation) */
-  .error-message {
-    color: red;
-    margin-top: 5px;
-  }
+}

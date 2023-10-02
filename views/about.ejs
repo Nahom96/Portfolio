@@ -1,3 +1,4 @@
+<!-- about.ejs file | Name: Nahom Araya, ID: 301180666, Date: Oct 2 2023 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,10 +9,11 @@
 </head>
 <body>
     <div class="logo">
-        <img class="logo1" src="/images/bg1-removebg-preview.png">
+        <img class="logo1" src="/images/bg1-removebg-preview.png"> <!-- Logo -->
     </div>
-    <div class="head1">
+    <div class="head1"> <!-- Header -->
         <h2>About me</h2>
+        <!-- Navigation -->
             <nav class="navbar">
                 <ul class="nav-list">
                 <li class="nav-item"><a href="/">Home</a></li>
@@ -22,23 +24,30 @@
             </ul>
       </nav>
     </div>
+    <!-- Face picture -->
     <img class="picture1" src="/images/58FABA47-3FB2-43ED-8BE5-3E3F6A4F6BA8_1_201_a.jpeg">
     <h1 class="name">Nahom Araya</h1>
+    <!-- My statement -->
     <h3 class="des">Hello, my name is Nahom Araya. I'm currently a student in Centennial College studying Software<br> 
         Engineering Technology. I'm currently in my 2nd year and is expected to graudate on 2025 december. This<br> 
         protofilo you are viewing is made with JavaScript, Nodejs, Express, HTML and lastly CSS. In this protofilo<br>
         you can find my past projects with many different langauges. For example C# and JAVA. My resume is also<br>
         available in the "About me" section.
     </h3>
+    <!-- Resume button, works both ways -->
     <button id="toggleResumeButton">Click Here For Resume & Back</button>
     <div id="resumeContent" style="display: none;">
+        <!-- My resume pdf -->
         <embed src="/images/Araya's Resume.pdf" type="application/pdf" width="100%" height="683px" />
     </div>
+    <!-- Different kind of pictures for visual pleasing -->
     <img class="pic1" src="/images/code2.jpeg">
     <img class="pic2" src="/images/code1.png">
     <img class="pic3" src="/images/code3.webp">
     <script defer>
+        // getting an id from the ejs
         const resumeContent = document.getElementById('resumeContent');
+        // same here
         const toggleResumeButton = document.getElementById('toggleResumeButton');
 
         // Function to toggle the visibility of the resume content and images
@@ -46,7 +55,7 @@
             // Toggle visibility of the resume content
             if (resumeContent.style.display === 'none' || resumeContent.style.display === '') {
                 resumeContent.style.display = 'block';
-                // Hide the picture and statement
+                // Hide the picture and statement when the resume button is pressed
                 document.querySelector('.picture1').style.display = 'none';
                 document.querySelector('.name').style.display = 'none';
                 document.querySelector('.des').style.display = 'none';
@@ -54,6 +63,7 @@
                 document.querySelector('.pic2').style.display = 'none';
                 document.querySelector('.pic3').style.display = 'none';
             } else {
+                // when the resume button is pressed again, my face picture and everyhting else will comeback
                 resumeContent.style.display = 'none';
                 // Show the picture and statement
                 document.querySelector('.picture1').style.display = 'block';
@@ -65,7 +75,7 @@
             }
         }
 
-        // Add a click event listener to the toggle button
+        // Add a click event listener for the resume button
         toggleResumeButton.addEventListener('click', toggleResumeVisibility);
     </script>
 

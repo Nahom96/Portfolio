@@ -1,3 +1,4 @@
+/* about.css file for the about.ejs file | Name: Nahom Araya, ID: 301180666, Date: Oct 2 2023*/
 body, h1, h2, p, ul, li {
     margin: 0;
     padding: 0;
@@ -79,8 +80,8 @@ body{
 }
 .resume {
     position: absolute;
-    top: 140px; /* Adjust this value as needed to align with your header */
-    right: 20px; /* Adjust this value as needed for horizontal positioning */
+    top: 140px; /* to align with your header */
+    right: 20px; /* for horizontal positioning */
     font-size: 100%;
 }
 
@@ -91,7 +92,7 @@ body{
     right: 430px;
     font-size: 18px;
     text-decoration: none;
-    color: #007bff; /* Change the link color */
+    color: #007bff; 
 }
 
 /* Button styling */

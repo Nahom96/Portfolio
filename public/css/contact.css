@@ -1,0 +1,152 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;  
+    background-image: url(/images/223.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    
+}
+.head1 {  
+    background-color: rgb(104, 3, 3); 
+    color: #fff;
+    padding: 20px;
+    text-align: center; 
+}
+.head1 h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+}
+.navbar {
+    background-image: url(/images/header.webp);
+    text-align: center; 
+}
+.nav-list {
+    list-style-type: none;
+    padding: 10px 0;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 50px;
+    font-weight: bolder;
+}
+.nav-item:last-child {
+    margin-right: 0;
+}
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: font-size 0.2s;
+}
+.nav-item a:hover {
+    font-size: 20px;
+}
+.content {
+    padding: 20px;
+}       
+.logo{
+    position:absolute;
+    top: -10px;
+    right: 1360px;
+}
+.logo1{
+    width:90px;
+    height: 90px;
+}
+.body2{
+    background-color: burlywood;
+    position:absolute;
+    top: 250px;
+    right: 300px;
+}
+.section1 {
+    background-image: url(/images/aa1.jpeg);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+.section2 {
+    background-image: url(/images/aa1.jpeg);
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    width: 450px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: -542px;
+    margin-left: 790px;
+} 
+.contact-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Styling for form elements */
+  .contact-container label,
+  .contact-container input,
+  .contact-container textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container label {
+    font-weight: bold;
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="tel"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the submit button */
+  .contact-container input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  .contact-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Center the form within the container */
+  .contact-container form {
+    text-align: center;
+  }
+  
+  /* Optional: Style for error messages (you can add JavaScript validation) */
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }

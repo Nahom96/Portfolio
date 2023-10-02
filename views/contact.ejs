@@ -57,21 +57,30 @@
     </div>
 
     <div class="section2">
-        <img class="gitPic" src="/images/Java.png">
+        <h2>Contact Infomation</h2>
+        <a href="https://github.com/Nahom96">
+        <img class="gitPic" src="/images/git.png"></a>
+
+        <a href="https://www.linkedin.com/in/nahom-araya-071603228/">
+            <img class="linkPic" src="/images/link.png"></a>
+
+        <a href="mailto:arayanahom475@gmail.com">
+            <img class="mailPic" src="/images/mail.png"></a>
+        
     </div>
 
 
     <script defer> 
         document.getElementById("contact-form").addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevent the default form submission behavior
+            event.preventDefault();  
 
-            // Capture form data
+           
             const firstName = document.getElementById("first-name").value;
             const lastName = document.getElementById("last-name").value;
             const contactNumber = document.getElementById("contact-number").value;
             const email = document.getElementById("email").value;
             const message = document.getElementById("message").value;
-            window.location.href = "/"; // Replace "/" with the actual URL of your Home Page
+            window.location.href = "/"; 
         });
 </script>
     

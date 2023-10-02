@@ -18,18 +18,18 @@ app.get('', (req, res) => {
     res.render('index')
 })
 
-app.get('/about', (req, res) => {
+app.get('/about', (req, res, next) => {
     res.render('about', {text: 'About Page'})
 })
 
-app.get('/project', (req, res) => {
+app.get('/project', (req, res, next) => {
     res.render('project', {text: 'This is S'})
 })
 
-app.get('/services', (req, res) => {
+app.get('/services', (req, res, next) => {
     res.render('services', {text: 'About Page'})
 })
-app.get('/contact', (req, res) => {
+app.get('/contact', (req, res, next) => {
     res.render('contact', {text: 'This is S'})
 })
 

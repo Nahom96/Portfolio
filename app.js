@@ -39,3 +39,4 @@ app.get('/contact', (req, res, next) => {
 // Listen on port 3000
 app.listen(port, () => console.info(`Listening on port ${port}`))
 
+exports.build = series(scssTask, jsTask);
